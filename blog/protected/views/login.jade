@@ -1,0 +1,9 @@
+extends main/index
+
+block content
+    h4 Login:
+    form(method="post", action="/login", role="form")
+        .form-group
+            input(type="text", name="id", value="#{user_id}").form-control
+            input(type="hidden", name="password", value="password")
+        button.btn.btn-primary(type="submit") Login

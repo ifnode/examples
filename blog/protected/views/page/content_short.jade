@@ -1,0 +1,16 @@
+h1
+    a(href="/page/#{page._id}") #{page.title}
+// Author
+p.lead
+    | by&nbsp;
+    a(href="/u/#{page.creator._id}") #{page.creator.first_name} #{page.creator.last_name}
+hr
+// Date/Time
+p
+    span.glyphicon.glyphicon-time
+    | &nbsp;Posted on #{page.posted_date}
+hr
+img.img-responsive(src="#{page.logo}", alt="")
+hr
+a(href="/page/#{page._id}") Read more...
+hr

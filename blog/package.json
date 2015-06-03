@@ -1,0 +1,40 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "Simple node.js blog using ifnode framework",
+    "main": "app.js",
+    "scripts": {
+    },
+    "keywords": [
+        "blog",
+        "ifnode"
+    ],
+    "author": "ilfroloff",
+    "license": "MIT",
+    "dependencies": {
+        "ifnode": "git://github.com/ilfroloff/ifnode.git#41f83cbbdb",
+        "ifnode-auth": "git://github.com/ifnode/auth.git#06c13884dd",
+        "debug": "latest",
+        "lodash": "latest",
+        "jade": "^1.9.2",
+
+        "body-parser": "1.12.x",
+        "connect-multiparty": "1.2.x",
+        "express-session": "1.11.x",
+        "serve-static": "1.9.x",
+
+        "jquery": "1.11.x",
+        "bootstrap": "3.3.x"
+    },
+    "devDependencies": {
+        "chance": "latest",
+        "gulp": "3.8.x",
+        "gulp-nodemon": "2.0.x",
+        "gulp-watch": "latest",
+        "gulp-nodemon": "latest",
+        "gulp-sass": "latest",
+        "gulp-browserify": "latest",
+        "gulp-rename": "latest",
+        "gulp-uglify": "latest"
+    }
+}

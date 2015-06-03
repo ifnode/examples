@@ -1,0 +1,12 @@
+{
+    "name": "ifnode-mongoose",
+    "version": "1.0.0",
+    "description": "Mongoose schema driver for ifnode",
+    "main": "index.js",
+    "author": "ilfroloff",
+
+    "dependencies": {
+        "mongoose": "4.x.x",
+        "lodash": "3.9.x"
+    }
+}
