@@ -1,0 +1,17 @@
+{
+    "name": "hello-world",
+    "version": "1.0.0",
+    "description": "Hello World application build on ifnode",
+    "main": "app.js",
+
+    "keywords": [
+        "helloworld",
+        "ifnode"
+    ],
+
+    "dependencies": {
+        "ifnode": "git://github.com/ilfroloff/ifnode.git#41f83cbbdb"
+    },
+    "author": "ilfroloff",
+    "license": "MIT"
+}
