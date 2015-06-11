@@ -13,7 +13,7 @@
     "license": "MIT",
     "dependencies": {
         "ifnode": "git://github.com/ilfroloff/ifnode.git#41f83cbbdb",
-        "ifnode-auth": "git://github.com/ifnode/auth.git#06c13884dd",
+        "ifnode-auth": "0.1.x",
         "debug": "latest",
         "lodash": "latest",
         "jade": "^1.9.2",
